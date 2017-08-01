@@ -7,7 +7,7 @@ __email__ = 'astralblue@gmail.com'
 __version__ = '0.1.0'
 
 
-class CtorRepr:
+class CtorRepr(object):
     """A mix-in that provides `object.__repr__()` from constructor arguments.
 
     Examples::
