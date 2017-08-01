@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='ctorrepr',
-    version='0.1.0',
+    version='0.1.1',
     description="A mix-in that provides __repr__() from constructor "
                 "arguments.",
     long_description=readme + '\n\n' + history,
