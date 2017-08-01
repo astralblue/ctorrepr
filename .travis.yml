@@ -22,7 +22,19 @@ deploy:
   distributions: sdist bdist_wheel
   user: astralblue
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: !!binary |
+      Wno3aDQ1ODJ0dXU3NEcxYUVNR1B2RFFKTEZ1UWI4TVRBQ2RrUks5ejhVeHIwQmkzMVZ3djlOYVhq
+      N3JMcTAzd1VQQnA2RVJTcXdZdEwxSHhCTkY5anZtWkRmOG9na2VUV25KRG9qb0lla3lyeHpoYkJw
+      UFhQVEtjNG1pUmU1bkJHZklEcVRRMWt2R054aU9rSXRRbTVjaE9pcnhqM0VxSlRiRFpDNWhFY3Ja
+      clVZOW56b25mbEdBVmNuOHN4RkJGTmpOT0tKbWdpVEFzK1ZyTERrZlpkcnVtKzhEaGdLdnduSS92
+      eVdkNVcya1piVk5MS2pYMmRka1J3TTY2UnBEZUZVNnNHWndhUC9vYmFQa2hnSUxsaTQ3bWJQbC9M
+      OElEOUdPS2NXNlUyWlpsdzdTQTd6eE5od2lRTzdpVml3Ykpqck1jNUsrczY1RkYrVFJJclk0bjZM
+      bGFpSitYd01lZ1RnNmQ1SFBxellHMlo5UjcrWHNMcyt5QUQzdGJrSUFxYVk3VzAySkhpWWpURGxW
+      RlZ1a08wUjQyZEpjWDNHMXBaUmpoK1pnd0daMmJWVFN3cU9UbjZuZEVkajJpWEZJaXpneGxzVGpV
+      Vy9uKytuNXAwSHJ2Uk9XTmpxeHozREUrbWVaOWxNeVkxQTZRTGxaMzJiNTloOVdmZCsvUWhGVm44
+      YjVJSlNzc1FiUlp5ejQ1WVh0RCtnRXNOQjlCV3h1UzVlckkzQ2R6U0tuNzV5YVBtcVJ3T2toM0RW
+      eG1BYjMvdzgyZlZCb2RaUGlsTDJHNTFzeUVPcWNTWDJQMGNQbXhjQTlKRDM1L0UxZnZUR3BDSnZS
+      dEtTb3ROZlR0SDFkelNnaWFqYm9ZaHRERHg3VllsaG9yZ0oxejZEYnVJMHg4QVR6bzFieFhNcUk9
   on:
     tags: true
     repo: astralblue/ctorrepr
