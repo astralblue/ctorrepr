@@ -8,7 +8,7 @@ __version__ = '0.1.0'
 
 
 class CtorRepr(object):
-    """A mix-in that provides `object.__repr__()` from constructor arguments.
+    """A mix-in that provides :py:meth:`object.__repr__()` from ctor arguments.
 
     Examples::
         >>> class X(CtorRepr):
