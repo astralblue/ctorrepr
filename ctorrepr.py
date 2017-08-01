@@ -11,7 +11,7 @@ class CtorRepr:
     """A mix-in that provides `object.__repr__()` from constructor arguments.
 
     Examples::
-        >>> class X (CtorRepr):
+        >>> class X(CtorRepr):
         ...     def __init__(self, x1='x1', x2='x2', *poargs, **kwargs):
         ...         super().__init__(*poargs, **kwargs)
         ...         self.x1 = x1
@@ -19,21 +19,21 @@ class CtorRepr:
         ...     def _collect_repr_args(self, poargs, kwargs):
         ...         super()._collect_repr_args(poargs, kwargs)
         ...         poargs[:0] = self.x1, self.x2
-        >>> class Y (CtorRepr):
+        >>> class Y(CtorRepr):
         ...     def __init__(self, *y, **kwargs):
         ...         super().__init__(**kwargs)
         ...         self.y = y          # completely consumes positional poargs
         ...     def _collect_repr_args(self, poargs, kwargs):
         ...         super()._collect_repr_args(poargs, kwargs)
         ...         poargs[:0] = self.y
-        >>> class Z (CtorRepr):
+        >>> class Z(CtorRepr):
         ...     def __init__(self, *poargs, zk='zk', **kwargs):
         ...         super().__init__(*poargs, **kwargs)
         ...         self.zk = zk
         ...     def _collect_repr_args(self, poargs, kwargs):
         ...         super()._collect_repr_args(poargs, kwargs)
         ...         kwargs.update(zk=self.zk)
-        >>> class W (X, Y, Z):
+        >>> class W(X, Y, Z):
         ...     def __str__(self):
         ...         return repr(self)
         >>> print(' '.join(t.__name__ for t in W.mro()))

@@ -6,7 +6,7 @@ import pytest
 from ctorrepr import CtorRepr
 
 
-class CtorReprUT (CtorRepr):
+class CtorReprUT(CtorRepr):
     """CtorRepr instance under test."""
 
 
