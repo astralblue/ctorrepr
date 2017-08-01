@@ -172,3 +172,11 @@ texinfo_documents = [
 intersphinx_mapping = {
         'python': ('https://docs.python.org/3.4', None),
 }
+
+
+# -- Options for autodoc -----------------------------------------------
+
+autodoc_default_flags = [
+        'members',
+        'private-members',
+]
