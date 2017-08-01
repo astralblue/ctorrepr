@@ -30,7 +30,7 @@ Usage
 
 To use, simply inherit from `~ctorrepr.CtorRepr` then implement its
 `~ctorrepr.CtorRepr._collect_repr_args()` to match your existing
-:py:meth:`~object.__init__()` method::
+``__init__()`` method::
 
     >>> from ctorrepr import CtorRepr
     >>> class X(CtorRepr):
