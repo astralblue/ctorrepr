@@ -44,7 +44,7 @@ To use, simply inherit from `~ctorrepr.CtorRepr` then implement its
     >>> class Y(CtorRepr):
     ...     def __init__(self, *y, **kwargs):
     ...         super().__init__(**kwargs)
-    ...         self.y = y          # completely consumes positional poargs
+    ...         self.y = y          # completely consumes positional args
     ...     def _collect_repr_args(self, poargs, kwargs):
     ...         super()._collect_repr_args(poargs, kwargs)
     ...         poargs[:0] = self.y
