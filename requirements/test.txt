@@ -1,4 +1,4 @@
-wheel==0.34.2
+wheel==0.38.1
 flake8==3.5.0
 flake8_docstrings==1.5.0
 tox==2.9.1
